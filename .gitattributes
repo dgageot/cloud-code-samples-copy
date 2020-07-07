@@ -5,3 +5,6 @@
 # should be removed once https://github.com/GoogleCloudPlatform/buildpacks/issues/56
 # is fixed and included in Skaffold.
 Procfile text eol=lf
+
+# Force mvnw to always use LFs. This is a temporary workaround.
+mvnw text eol=lf
